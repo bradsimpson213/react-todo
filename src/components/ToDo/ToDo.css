@@ -1,3 +1,19 @@
 .todo {
+    width: 95%;
     color: black;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+    padding: 5px;
+    margin: 5px;
+    font-size: 2em;
+    
+}
+
+.task-name {
+    margin-left: 25px;
+}
+
+.task-completed {
+    margin-right: 25px;
 }

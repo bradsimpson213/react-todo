@@ -5,7 +5,8 @@ const ToDo = ({ task, completed }) => {
 
     return (
         <div className="todo">
-            <span>{task}</span><span>{completed}</span>
+            <span className="task-name">{ task }</span>
+            <span className="task-completed">{ completed ? "✅" : "🚫" }</span>
         </div>
     );
 };
