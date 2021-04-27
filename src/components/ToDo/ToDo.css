@@ -3,6 +3,7 @@
     color: black;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border: 1px solid gray;
     padding: 5px;
     margin: 5px;
@@ -15,5 +16,16 @@
 }
 
 .task-completed {
+    margin-right: 25px; 
+    
+}
+
+.task-controls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.task-button {
     margin-right: 25px;
 }
