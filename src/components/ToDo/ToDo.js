@@ -2,6 +2,7 @@ import React from 'react';
 import './ToDo.css';
 
 const ToDo = ({ id, task, completed, toggleComplete }) => {
+    console.log(`Rerender on task #${id}`)
 
     return (
         <div className="todo">
@@ -17,7 +18,7 @@ const ToDo = ({ id, task, completed, toggleComplete }) => {
                     className="task-button"
                     onClick={ () => toggleComplete(id)}
                 >
-                    { completed ? 'Incomplete' : 'Completed'}
+                    { completed ? 'Not Done' : 'Done'}
                 </button>
             </div>
             

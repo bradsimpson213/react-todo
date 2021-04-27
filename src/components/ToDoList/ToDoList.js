@@ -28,6 +28,7 @@ const ToDoList = () => {
                     />
                 )
             })}
+            <button className="new-todo-button">Add New Task</button>
         </div>      
     );
 

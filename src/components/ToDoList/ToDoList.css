@@ -8,3 +8,10 @@
     padding: 15px  5px 5px 5px;
     margin: 10px;
 }
+
+.new-todo-button {
+    font-size: 1.25em;
+    height: 50px;
+    width: 150px;
+    margin: 5px;
+}
