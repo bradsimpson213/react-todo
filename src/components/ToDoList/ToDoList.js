@@ -34,4 +34,4 @@ const ToDoList = () => {
 
 };
 
-export default ToDoList;
+export default React.memo(ToDoList);
